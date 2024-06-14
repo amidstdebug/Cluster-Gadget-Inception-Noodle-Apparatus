@@ -1,0 +1,8 @@
+openai
+requests
+anytree
+pandas
+tiktoken
+numpy
+qdrant-client
+python-dotenv

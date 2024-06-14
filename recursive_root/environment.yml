@@ -1,0 +1,16 @@
+name: recursive_production
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - anytree
+  - pandas
+  - numpy
+  - pip:
+      - openai
+      - requests
+      - tiktoken
+      - qdrant-client
+      - python-dotenv
