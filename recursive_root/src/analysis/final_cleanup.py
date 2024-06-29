@@ -1,8 +1,5 @@
 import random
 import tiktoken
-from openai import AzureOpenAI
-from src.config import AZURE_OPENAI_KEY, AZURE_OPENAI_ENDPOINT,AZURE_OPENAI_VERSION, EMBEDDING_OPENAI_KEY,BING_API_KEY, DEPLOYMENT
-
 
 def final_cleanup(fi, background_info, goal, final_cleanup_prompt, openai_service):
 	encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")

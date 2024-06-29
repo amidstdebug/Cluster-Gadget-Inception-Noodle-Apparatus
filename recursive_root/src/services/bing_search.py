@@ -3,8 +3,8 @@ import logging
 
 from requests import RequestException
 
-from src.utils.requests import make_request
-from src.config import BING_API_KEY
+from recursive_root.src.utils.requests import make_request
+from recursive_root.src.config import BING_API_KEY
 
 def search_with_bing(query, subscription_key=BING_API_KEY):
     BING_SEARCH_V7_ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"

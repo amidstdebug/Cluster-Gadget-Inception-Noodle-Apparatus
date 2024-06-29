@@ -1,0 +1,1 @@
+docker run --entrypoint "/bin/bash" -dit -p 8080:8080 --gpus=0 -v $PWD:/backend --name rr_container recursive_root:latest

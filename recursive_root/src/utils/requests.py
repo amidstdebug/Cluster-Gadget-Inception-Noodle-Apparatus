@@ -1,7 +1,7 @@
 import requests
 from requests.exceptions import RequestException
 import logging
-from src.utils.logging import setup_logging
+from recursive_root.src.utils.logging import setup_logging
 
 # Call the setup_logging function to configure logging
 setup_logging()

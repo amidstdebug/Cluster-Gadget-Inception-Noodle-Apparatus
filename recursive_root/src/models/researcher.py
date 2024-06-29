@@ -2,8 +2,8 @@ import re
 import time
 
 from anytree import Node
-from src.services.bing_search import search_with_bing
-from src.prompts.gpt_prompts import _question_branch_prompt, _initial_query_prompt
+from recursive_root.src.services.bing_search import search_with_bing
+from recursive_root.src.prompts.gpt_prompts import _question_branch_prompt, _initial_query_prompt
 
 class OptimisedResearcher:
     def __init__(self, goal, max_depth, max_child, bg_info, openai_service, query=None, previous_node=None, depth=0, label=''):
