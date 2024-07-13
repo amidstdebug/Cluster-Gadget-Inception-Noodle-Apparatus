@@ -15,6 +15,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 EXPOSE 10000
+EXPOSE 9999
 
 # run uvicorn to start ASGI server
-ENTRYPOINT ["python3", "main.py"]
+ENTRYPOINT ["python3", "./demo/main.py"]
